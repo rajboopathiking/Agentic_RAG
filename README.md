@@ -4,7 +4,7 @@ Instead of a single static retrieve-then-answer pipeline, an LLM acts as an agen
 
 ### Fork Repo :
     ```bash
-    git clone <repo>
+    git clone https://github.com/rajboopathiking/Agentic_RAG.git
     ```
 ### STEPS :
 
@@ -18,7 +18,7 @@ Instead of a single static retrieve-then-answer pipeline, an LLM acts as an agen
 **create virtual environmen and install dependencies**
 ```bash
 uv venv rag
-uv pip install -r requirements
+uv pip install -r requirements.txt
 ```
 
 ***To Start Server***
@@ -31,8 +31,8 @@ uv run app/main.py
 
 ### API Documentation:
 
-**/upload_pdf** - To upload PDF Documents Which is Need for RAG
-**/build_db** - To Build a Chroma Database in ***./chroma_db*** and collection_name - ***"agentic_rag_collection"***
-**/query** - To Get Agentic RAG response
+1) **/upload_pdf** - To upload PDF Documents Which is Need for RAG
+2) **/build_db** - To Build a Chroma Database in ***./chroma_db*** and collection_name - ***"agentic_rag_collection"***
+3) **/query** - To Get Agentic RAG response
 
 
