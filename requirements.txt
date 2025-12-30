@@ -1,11 +1,12 @@
-langchain-google-genai
-langchain-groq
+langchain
 langchain-core
 langchain-community
+langchain-openai
+langchain-google-genai
+langchain-groq
+langchain-chroma
 langgraph
-langchain_text_splitters
-langchain
-langchain_chroma
+langchain-text-splitters
 python-dotenv
 pypdf
 ddgs
