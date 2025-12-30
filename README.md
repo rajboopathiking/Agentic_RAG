@@ -21,6 +21,7 @@ cd Agentic_RAG
 **create virtual environmen and install dependencies**
 ```bash
 uv venv rag
+rag/Scripts/activate
 uv pip install -r requirements.txt
 ```
 
