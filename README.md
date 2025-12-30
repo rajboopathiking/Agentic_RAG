@@ -3,17 +3,16 @@
 Instead of a single static retrieve-then-answer pipeline, an LLM acts as an agent that can reason about what information it needs, decide actions, and iteratively refine retrieval and answers.
 
 
-
 ### Fork Repo :
 
 ```bash
-    git clone https://github.com/rajboopathiking/Agentic_RAG.git
+git clone https://github.com/rajboopathiking/Agentic_RAG.git
 ```
 ### STEPS :
 
 **move to directory** : 
 ```bash
-  cd Agentic_RAG
+cd Agentic_RAG
 ```
 
 
@@ -41,7 +40,7 @@ uv run app/main.py
 ### API Documentation:
 
 1) **/upload_pdf** - To upload PDF Documents Which is Need for RAG
-2) **/build_db** - To Build a Chroma Database in ***./chroma_db*** and collection_name - ***"agentic_rag_collection"***
+2) **/build_db** - To Build a Chroma Database in ***./chroma_db*** and collection_name - ***agentic_rag_collection***
 3) **/query** - To Get Agentic RAG response
 
 
